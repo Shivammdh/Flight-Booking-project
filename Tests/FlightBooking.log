@@ -1,0 +1,14 @@
+2022-08-05 19:15:42,510-DEBUG|POST http://localhost:52448/session/ce1bd2283f8af23c054af66b0af6e7b6/url {"url": "https://phptravels.net/"}
+2022-08-05 19:15:43,159-DEBUG|http://localhost:52448 "POST /session/ce1bd2283f8af23c054af66b0af6e7b6/url HTTP/1.1" 200 14
+2022-08-05 19:15:43,159-DEBUG|Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-08-05 19:15:43,159-DEBUG|Finished Request
+2022-08-05 19:15:43,160-INFO|Hit the url...
+2022-08-05 19:15:43,160-DEBUG|POST http://localhost:52448/session/ce1bd2283f8af23c054af66b0af6e7b6/element {"using": "css selector", "value": "[id=\"languages\"]"}
+2022-08-05 19:16:13,197-DEBUG|http://localhost:52448 "POST /session/ce1bd2283f8af23c054af66b0af6e7b6/element HTTP/1.1" 404 1030
+2022-08-05 19:16:13,198-DEBUG|Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[id=\"languages\"]\"}\n  (Session info: chrome=103.0.5060.134)","stacktrace":"Backtrace:\n\tOrdinal0 [0x00846463+2188387]\n\tOrdinal0 [0x007DE461+1762401]\n\tOrdinal0 [0x006F3D78+802168]\n\tOrdinal0 [0x00721880+989312]\n\tOrdinal0 [0x00721B1B+989979]\n\tOrdinal0 [0x0074E912+1173778]\n\tOrdinal0 [0x0073C824+1099812]\n\tOrdinal0 [0x0074CC22+1166370]\n\tOrdinal0 [0x0073C5F6+1099254]\n\tOrdinal0 [0x00716BE0+945120]\n\tOrdinal0 [0x00717AD6+948950]\n\tGetHandleVerifier [0x00AE71F2+2712546]\n\tGetHandleVerifier [0x00AD886D+2652765]\n\tGetHandleVerifier [0x008D002A+520730]\n\tGetHandleVerifier [0x008CEE06+516086]\n\tOrdinal0 [0x007E468B+1787531]\n\tOrdinal0 [0x007E8E88+1805960]\n\tOrdinal0 [0x007E8F75+1806197]\n\tOrdinal0 [0x007F1DF1+1842673]\n\tBaseThreadInitThunk [0x7678FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x774C7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x774C7A6E+238]\n"}} | headers=HTTPHeaderDict({'Content-Length': '1030', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-08-05 19:16:13,198-DEBUG|Finished Request
+2022-08-05 19:16:13,199-WARNING|Driver going to close..
+2022-08-05 19:16:13,199-DEBUG|DELETE http://localhost:52448/session/ce1bd2283f8af23c054af66b0af6e7b6/window {}
+2022-08-05 19:16:13,253-DEBUG|http://localhost:52448 "DELETE /session/ce1bd2283f8af23c054af66b0af6e7b6/window HTTP/1.1" 200 12
+2022-08-05 19:16:13,253-DEBUG|Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-08-05 19:16:13,253-DEBUG|Finished Request
